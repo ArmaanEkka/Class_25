@@ -4,8 +4,9 @@ class Paper extends BaseClass{
         this.image = loadImage("paper.png");
     }
     display(){
-        this.body.position.x = mouseX;
-        this.body.position.y = mouseY;
+       // this.body.position.x = mouseX;
+        //this.body.position.y = mouseY;
         super.display();
     }
 }
+   
